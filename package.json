@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lesson_1/lesson_1.js",
+  "scripts": {
+    "dev": "nodemon ./lesson_9/app.js",
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiKutsenko/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiKutsenko/node/issues"
+  },
+  "homepage": "https://github.com/VitaliiKutsenko/node#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
