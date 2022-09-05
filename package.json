@@ -4,7 +4,7 @@
   "description": "",
   "main": "lesson_1/lesson_1.js",
   "scripts": {
-    "dev": "nodemon ./lesson_9/app.js",
+    "dev": "nodemon ./lesson_10/app.js",
     "test": "start"
   },
   "repository": {
