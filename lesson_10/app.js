@@ -5,7 +5,7 @@ const port = 3000
 
 server.set('view engine', 'ejs')
 
-const createPath = (page) => path.resolve(__dirname, 'ejs-views', `${page}.ejs`)
+const createPath = (page) => path.resolve(__dirname, 'views', `${page}.ejs`)
 
 server.listen(port, err => {
     err ? console.log(err) : console.log(`listen port ${port}`)
